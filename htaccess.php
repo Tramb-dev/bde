@@ -1,4 +1,4 @@
-AuthName "Page d'administration protégée"
+AuthName "Page d'administration protÃ©gÃ©e"
 AuthType Basic
-AuthUserFile "/var/www/2/hosting/bde-isbp/sites/www/news/.htpasswd"
+AuthUserFile "XXX"
 Require valid-user
