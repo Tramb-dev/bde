@@ -1,0 +1,36 @@
+/* CSS Document */
+
+caption
+{
+   caption-side: bottom; /* Le titre sera placé en bas du tableau (ne marche pas sur Internet Explorer) */
+   margin: auto;
+   font-family: Arial, Times, "Times New Roman", serif;
+   font-weight: bold;
+   font-size: 1.2em;
+   color: #009900;
+   margin-top: 20px; /* La marge doit se faire au-dessus et non en-dessous maintenant */
+}
+
+table
+{
+   border: 4px outset #d92c09;
+   border-collapse: collapse;
+}
+
+th
+{
+	background-color: #c35749;
+	color: white;
+	font-size: 1.1em;
+	font-family: Arial, "Arial Black", Times, "Times New Roman", serif;
+}
+
+td
+{
+   height: 80px; 
+   vertical-align: center; 
+   border: 2px dotted #c35749;
+   font-family: "Comic Sans MS", "Trebuchet MS", Times, "Times New Roman", serif;
+   text-align: center;
+   padding: 5px;
+}
